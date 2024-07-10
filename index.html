@@ -38,6 +38,7 @@
       flex-direction: column;
       align-items: center;
       padding-top: 16px;
+      gap: 24px;
     }
 
     img{
@@ -46,21 +47,30 @@
       border-radius: 8px;
     }
 
+    .text-content{
+      width: 288px;
+      height: 129px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+    }
+
     .heading{
       text-align: center;
       font-family: "Outfit", sans-serif;
       font-size: 22px;
       font-weight: 700;
-      width: 251px; 
-      margin-top: 29px;
+      color: #1F314F;
     }
 
     .paragraph{
       text-align: center;
       font-family: "Outfit", sans-serif;
-      font-weight: 200;
-      width: 251px;
-      margin-top: 18px;
+      font-weight: 400;
+      font-weight: 15px;
+      color: #7D889E;
+      width: 256px;
     }
   </style>
 </head>
@@ -69,13 +79,15 @@
     <div class="card">
       <img src="/images/image-qr-code.png" alt="image-qr-code">
   
-      <h3 class="heading">
-        Improve your front-end skills by building projects
-      </h3>
-  
-      <p class="paragraph">
-        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-      </p>
+      <div class="text-content">
+        <h3 class="heading">
+          Improve your front-end skills by building projects
+        </h3>
+        <p class="paragraph">
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </p>
+      </div>
+      
     </div>
   </div>
   
